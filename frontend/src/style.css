@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    height: 2000px; /* Example height to allow scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bus-image {
+    position: absolute;
+    left: 0;
+    width: 80px; 
+    height: 450px;/* Adjust the size as needed */
+    transition: left 2s ease-in-out;
+}
+
+@keyframes moveBus {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}

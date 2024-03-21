@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://travelplanner-m6r8.onrender.com';
